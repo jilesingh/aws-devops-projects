@@ -10,5 +10,3 @@
 
 # Error encounters because serviceAccount was already existed so to override if it is the case 
     eksctl create iamserviceaccount   --cluster=demo-cluster   --namespace=kube-system   --name=aws-load-balancer-controller   --role-name AmazonEKSLoadBalancerControllerRole   --attach-policy-arn=arn:aws:iam::AKIAW4YHIRXCLG4LGOM6/AWSLoadBalancerControllerIAMPolicy   --approve --override-existing-serviceaccounts
-
-    eksctl create iamserviceaccount   --cluster=demo-cluster   --namespace=kube-system   --name=aws-load-balancer-controller-1   --role-name AmazonEKSLoadBalancerControllerRole   --attach-policy-arn=arn:aws:iam::AKIAW4YHIRXCLG4LGOM6/AWSLoadBalancerControllerIAMPolicy   --approve --override-existing-serviceaccounts
